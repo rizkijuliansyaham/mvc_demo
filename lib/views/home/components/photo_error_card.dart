@@ -20,7 +20,7 @@ class PhotoErrorCard extends StatelessWidget {
         color: Colors.white,
       ),
       actions: <Widget>[
-        FlatButton(
+        TextButton(
           onPressed: onPressed,
           child: Text(
             "Try again",
